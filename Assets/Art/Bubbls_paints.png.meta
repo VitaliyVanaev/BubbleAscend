@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 58cd7778f5fc40f408714bff9ef0e77d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1239345640560599830
+    second: Bubbls_paints_0
+  - first:
+      213: 1940322669040959941
+    second: Bubbls_paints_1
+  - first:
+      213: -4819455036259510128
+    second: Bubbls_paints_2
+  - first:
+      213: -115356057824418430
+    second: Bubbls_paints_3
+  - first:
+      213: -9055269764257566924
+    second: Bubbls_paints_4
+  - first:
+      213: -7013886410277751335
+    second: Bubbls_paints_5
+  - first:
+      213: -7600981629775330597
+    second: Bubbls_paints_6
+  - first:
+      213: -303972509227035319
+    second: Bubbls_paints_7
+  - first:
+      213: 9007527912012264395
+    second: Bubbls_paints_8
+  - first:
+      213: -1738676981730878532
+    second: Bubbls_paints_9
+  - first:
+      213: -4761480063069927542
+    second: Bubbls_paints_10
+  - first:
+      213: 4685556113673299528
+    second: Bubbls_paints_11
+  - first:
+      213: 4188932535689144478
+    second: Bubbls_paints_12
+  - first:
+      213: 8266100679725316970
+    second: Bubbls_paints_13
+  - first:
+      213: -1885469607553834062
+    second: Bubbls_paints_14
+  - first:
+      213: 7932511383142269659
+    second: Bubbls_paints_15
+  - first:
+      213: -7431736166208595901
+    second: Bubbls_paints_16
+  - first:
+      213: 1715432735828828871
+    second: Bubbls_paints_17
+  - first:
+      213: 2558186273225997328
+    second: Bubbls_paints_18
+  - first:
+      213: 6734130173603806323
+    second: Bubbls_paints_19
+  - first:
+      213: -6063986654414912342
+    second: Bubbls_paints_20
+  - first:
+      213: 4960080788080418046
+    second: Bubbls_paints_21
+  - first:
+      213: 6970630106314309667
+    second: Bubbls_paints_22
+  - first:
+      213: -4443812782769842546
+    second: Bubbls_paints_23
+  - first:
+      213: 3427891510306732909
+    second: Bubbls_paints_24
+  - first:
+      213: 863873448241768661
+    second: Bubbls_paints_25
+  - first:
+      213: 6580707975784825995
+    second: Bubbls_paints_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bubbls_paints_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1136
+        width: 253
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecd47cc4b5fccee0800000000000000
+      internalID: -1239345640560599830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1207
+        width: 240
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c103ddef296dea10800000000000000
+      internalID: 1940322669040959941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_2
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1353
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098d8c8dd2bdd1db0800000000000000
+      internalID: -4819455036259510128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_3
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1234
+        width: 241
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285afaec64c266ef0800000000000000
+      internalID: -115356057824418430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_4
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1115
+        width: 294
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fa7145028355280800000000000000
+      internalID: -9055269764257566924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 946
+        width: 273
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d57474987ba9ae90800000000000000
+      internalID: -7013886410277751335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 991
+        width: 220
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2c8fcba73e38690800000000000000
+      internalID: -7600981629775330597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 991
+        width: 229
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945d9060d9218cbf0800000000000000
+      internalID: -303972509227035319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_8
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 945
+        width: 322
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc338eb79ea210d70800000000000000
+      internalID: 9007527912012264395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 782
+        width: 257
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb58cc3f7afed7e0800000000000000
+      internalID: -1738676981730878532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_10
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 962
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87cc9b2c13dbedb0800000000000000
+      internalID: -4761480063069927542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_11
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 783
+        width: 179
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84628a2d570760140800000000000000
+      internalID: 4685556113673299528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_12
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 755
+        width: 227
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98e3d182f3122a30800000000000000
+      internalID: 4188932535689144478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_13
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 755
+        width: 254
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b74a4c5c617b270800000000000000
+      internalID: 8266100679725316970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 262
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b365fea16775d5e0800000000000000
+      internalID: -1885469607553834062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_15
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 540
+        width: 203
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd200f02311f51e60800000000000000
+      internalID: 7932511383142269659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_16
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 540
+        width: 235
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34896b4f45b2dd890800000000000000
+      internalID: -7431736166208595901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_17
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 225
+        width: 261
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c267270cf07ec710800000000000000
+      internalID: 1715432735828828871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 257
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c7ae49cd0808320800000000000000
+      internalID: 2558186273225997328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_19
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 319
+        width: 218
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cf4e4c6bf647d50800000000000000
+      internalID: 6734130173603806323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_20
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 415
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4c3e4244468dba0800000000000000
+      internalID: -6063986654414912342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_21
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 319
+        width: 232
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcd5c6723fb5d440800000000000000
+      internalID: 4960080788080418046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_22
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 311
+        width: 231
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32002835627acb060800000000000000
+      internalID: 6970630106314309667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 273
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86d9a281d76452c0800000000000000
+      internalID: -4443812782769842546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_24
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 8
+        width: 215
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bf868ba21529f20800000000000000
+      internalID: 3427891510306732909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_25
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 8
+        width: 234
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8a75df2581dfb00800000000000000
+      internalID: 863873448241768661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbls_paints_26
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 8
+        width: 310
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b840c33b90f535b50800000000000000
+      internalID: 6580707975784825995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bubbls_paints_0: -1239345640560599830
+      Bubbls_paints_1: 1940322669040959941
+      Bubbls_paints_10: -4761480063069927542
+      Bubbls_paints_11: 4685556113673299528
+      Bubbls_paints_12: 4188932535689144478
+      Bubbls_paints_13: 8266100679725316970
+      Bubbls_paints_14: -1885469607553834062
+      Bubbls_paints_15: 7932511383142269659
+      Bubbls_paints_16: -7431736166208595901
+      Bubbls_paints_17: 1715432735828828871
+      Bubbls_paints_18: 2558186273225997328
+      Bubbls_paints_19: 6734130173603806323
+      Bubbls_paints_2: -4819455036259510128
+      Bubbls_paints_20: -6063986654414912342
+      Bubbls_paints_21: 4960080788080418046
+      Bubbls_paints_22: 6970630106314309667
+      Bubbls_paints_23: -4443812782769842546
+      Bubbls_paints_24: 3427891510306732909
+      Bubbls_paints_25: 863873448241768661
+      Bubbls_paints_26: 6580707975784825995
+      Bubbls_paints_3: -115356057824418430
+      Bubbls_paints_4: -9055269764257566924
+      Bubbls_paints_5: -7013886410277751335
+      Bubbls_paints_6: -7600981629775330597
+      Bubbls_paints_7: -303972509227035319
+      Bubbls_paints_8: 9007527912012264395
+      Bubbls_paints_9: -1738676981730878532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
