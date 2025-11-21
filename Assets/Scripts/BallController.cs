@@ -88,10 +88,11 @@ public class BallController : MonoBehaviour, PlayerControls.ITouchActions
     // ---------------------------------------
     private void CheckBottomDeath()
     {
-        Vector2 screenPos = cam.WorldToScreenPoint(transform.position);
-        float percentY = screenPos.y / Screen.height;
+        // нижняя граница камеры в мировых координатах
+        float bottomY = cam.ViewportToWorldPoint(Vector3.zero).y;
 
-        if (percentY < 0.19f)
+        // умираем, если шарик ушёл ниже нижней границы
+        if (transform.position.y < bottomY - 0.5f) // смещение 0.5f, чтобы полностью исчезнуть
         {
             Die();
         }

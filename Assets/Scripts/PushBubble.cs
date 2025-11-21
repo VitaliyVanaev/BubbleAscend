@@ -1,9 +1,11 @@
 using UnityEngine;
+using System.Collections;
 
 public class PushBubble : MonoBehaviour
 {
     public float moveSpeed = 2f;      // скорость падения пузыря
-    public float pushForce = 6f;      // сила отталкивания
+    public float pushDistance = 2f; // как сильно толкает
+    public float pushTime = 0.4f;     // за сколько времени толкает
 
     private void Update()
     {
@@ -14,16 +16,23 @@ public class PushBubble : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Rigidbody2D rb = collision.GetComponent<Rigidbody2D>();
-
-            if (rb != null)
-            {
-                // Сбрасываем линейную скорость (новый API)
-                rb.linearVelocity = Vector2.zero;
-
-                // Добавляем импульс вниз
-                rb.AddForce(Vector2.down * pushForce, ForceMode2D.Impulse);
-            }
+            StartCoroutine(PushDown(collision.transform));
         }
+    }
+
+    private IEnumerator PushDown(Transform player)
+    {
+        Vector3 startPos = player.position;
+        Vector3 endPos = startPos + Vector3.down * pushDistance;
+        float elapsed = 0f;
+
+        while (elapsed < pushTime)
+        {
+            player.position = Vector3.Lerp(startPos, endPos, elapsed / pushTime);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        player.position = endPos;
     }
 }

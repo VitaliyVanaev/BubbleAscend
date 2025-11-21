@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 3244288353743710967}
   - component: {fileID: 3417893317601986377}
   - component: {fileID: 1079373712379421846}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SoapBubble
-  m_TagString: Untagged
+  m_TagString: SoapBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

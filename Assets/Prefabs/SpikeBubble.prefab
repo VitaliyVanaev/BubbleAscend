@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8635879303004334859}
   - component: {fileID: 665774568202152632}
   - component: {fileID: 1096353881529518613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SpikeBubble
   m_TagString: Untagged
   m_Icon: {fileID: 0}

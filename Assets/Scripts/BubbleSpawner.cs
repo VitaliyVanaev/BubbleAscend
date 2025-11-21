@@ -8,8 +8,8 @@ public class BubbleSpawner : MonoBehaviour
     public GameObject spikeBubblePrefab;
 
     [Header("Spawn Settings")]
-    public float spawnInterval = 1.5f;
-    public float spawnXMargin = 0.5f;
+    public float spawnInterval = 10f;
+    public float spawnXMargin = 0f;
     public float spawnY = 6f;
 
     private Camera cam;
