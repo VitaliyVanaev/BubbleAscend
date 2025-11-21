@@ -5,6 +5,7 @@ public class BallController : MonoBehaviour, PlayerControls.ITouchActions
 {
     [Header("Movement Settings")]
     public float moveSpeed = 20f; // чувствительность движения
+    public float sideMargin = 0.3f; // сколько шарик может уходить за экран
 
     private PlayerControls controls;
     private Camera cam;
@@ -29,24 +30,28 @@ public class BallController : MonoBehaviour, PlayerControls.ITouchActions
         controls.Touch.Disable();
     }
 
-    // Вызывается при нажатии или отпускании
+    // ---------------------------
+    // INPUT SYSTEM
+    // ---------------------------
+
+    // Нажатие пальца
     public void OnPress(InputAction.CallbackContext context)
     {
-        if (context.performed) // палец/кнопка нажата
+        if (context.performed) // палец прижат
         {
             lastTouchPos = controls.Touch.Position.ReadValue<Vector2>();
             isDragging = true;
         }
-        else if (context.canceled) // палец/кнопка отпущена
+        else if (context.canceled) // палец отпущен
         {
             isDragging = false;
         }
     }
 
-    // Вызывается при движении
+    // Движение пальца
     public void OnPosition(InputAction.CallbackContext context)
     {
-        if (!isDragging) return; // движение только если удерживаем
+        if (!isDragging) return;
 
         Vector2 currentTouchPos = context.ReadValue<Vector2>();
         Vector2 delta = currentTouchPos - lastTouchPos;
@@ -63,4 +68,69 @@ public class BallController : MonoBehaviour, PlayerControls.ITouchActions
 
     public void OnHold(InputAction.CallbackContext context) { }
     public void OnDelta(InputAction.CallbackContext context) { }
+
+    // ---------------------------
+    // GAME LOGIC
+    // ---------------------------
+
+    private void Update()
+    {
+        CheckBottomDeath();
+    }
+
+    private void LateUpdate()
+    {
+        ClampToSideBorders();
+    }
+
+    // ---------------------------------------
+    // 1. Смерть, если шарик ушёл ниже 19%
+    // ---------------------------------------
+    private void CheckBottomDeath()
+    {
+        Vector2 screenPos = cam.WorldToScreenPoint(transform.position);
+        float percentY = screenPos.y / Screen.height;
+
+        if (percentY < 0.19f)
+        {
+            Die();
+        }
+    }
+
+    // ---------------------------------------
+    // 2. Ограничение границ экрана
+    //    • можно немного заходить за левый/правый/верхний край
+    //    • смерть — только снизу
+    // ---------------------------------------
+    private void ClampToSideBorders()
+    {
+        Vector3 pos = transform.position;
+
+        Vector3 left = cam.ScreenToWorldPoint(new Vector3(0, 0));
+        Vector3 right = cam.ScreenToWorldPoint(new Vector3(Screen.width, 0));
+        Vector3 top = cam.ScreenToWorldPoint(new Vector3(0, Screen.height));
+
+        // ограничение слева и справа (частично можно выходить)
+        pos.x = Mathf.Clamp(pos.x, left.x - sideMargin, right.x + sideMargin);
+
+        // сверху можно выходить немного
+        pos.y = Mathf.Clamp(pos.y, left.y - 5f, top.y + sideMargin);
+
+        transform.position = pos;
+    }
+
+    // ---------------------------------------
+    // 3. Смерть (вызывается пузырями)
+    // ---------------------------------------
+    public void Die()
+    {
+        Debug.Log("PLAYER DIED");
+        // Здесь можно добавить:
+        // - анимацию лопания
+        // - рестарт сцены
+        // - GameOver экран
+
+        // временно — просто выключаем объект
+        gameObject.SetActive(false);
+    }
 }
